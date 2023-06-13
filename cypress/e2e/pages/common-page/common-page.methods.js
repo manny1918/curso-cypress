@@ -60,7 +60,7 @@ export class CommonPageMethods {
 
   static logout(){
     cy.get('body').then($body=>{
-      if($body.find('#logout2').length>0){
+      if($body.find('#logout2[style="display: block;"]').length>0){
         CommonPageElements.topMenu.logout.click();
       }
     })
