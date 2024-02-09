@@ -3,7 +3,7 @@ import { CommonPageMethods } from '../pages/common-page/common-page.methods';
 import { LoginData } from '../pages/login/login.data';
 import { SignupMethods } from '../pages/signup/signup.methods';
 import { Logger } from '../util/logger';
-
+// Maria
 const user = CommonPageMethods.generateRandomString();
 const password = CommonPageMethods.generateRandomString(7)
 const existingUser = LoginData.validCredentials.username
