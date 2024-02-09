@@ -7,7 +7,7 @@ import { Logger } from '../util/logger';
 const user = CommonPageMethods.generateRandomString();
 const password = CommonPageMethods.generateRandomString(7)
 const existingUser = LoginData.validCredentials.username
-
+// my nombre es carlos
 describe(CommomPageData.testSuites.registro, () => {
   it("Registro de usuario válido", () => {
     Logger.stepNumber(1)
